@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: red;
+    height: 20vh;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+}
+.heading{
+    font-size: 35px;
+    font-family: 'Baloo 2', cursive;
+    margin-bottom: 10px;
+}
+#myInput{
+    height: 34px;
+    padding: 5px;
+    width: 50vw;
+    font-size: 20px;
+}
+.addBtn{
+    padding: 12px;
+    margin: 6px;
+    background-color: #eee;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.addBtn:hover{
+    color: white;
+    background-color: grey;
+    transition: 0.3s;
+}
+
+#myUL{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    /* background-color: rgb(202, 192, 212); */
+    width: 80vw;
+    margin: 10px auto;
+    /* border: 2px solid black; */
+}
+#myUL li{
+    list-style: none;
+    padding: 8px;
+    margin: 5px;
+    font-size: 28px;
+    border: 2px solid black;
+    background-color: #eee;
+    cursor: pointer;
+    text-align: justify;
+    user-select: none;
+    font-family: 'Baloo 2', cursive;
+}
+#myUL li:hover{
+    background-color: gray;
+    transition: 0.3s;
+    color: white;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  } 
+  .btn{
+    float: right;
+    margin: 0px 5px;
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .btn:hover{
+    background-color: gray;
+    color: white;
+    transition: 0.3s;
+  }
+  .done{
+    text-decoration: line-through;
+    color: green;
+  }
